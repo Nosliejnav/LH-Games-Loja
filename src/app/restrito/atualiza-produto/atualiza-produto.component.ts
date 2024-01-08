@@ -3,6 +3,7 @@ import { Produto } from 'src/app/models/Produto.model';
 import { ProdutoService } from 'src/app/produto.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { map, tap } from 'rxjs';
+
 @Component({
   selector: 'app-atualiza-produto',
   templateUrl: './atualiza-produto.component.html',
